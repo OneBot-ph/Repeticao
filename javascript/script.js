@@ -65,7 +65,7 @@ function Gerar(){
     saida6 = "";
     for(q = 0; q <= 5; q++)
     {
-        saida6 += '<div class = class="caixa">';
+        saida6 = saida6 + `<div class="caixa"> <br>`;
     }
 
     document.getElementById("quadrado").innerHTML = saida6;
